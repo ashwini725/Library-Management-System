@@ -1,0 +1,124 @@
+  libman.addbook.resources - Embedded, ContainedInManifestFile, 
+  libman.addlibrarian.resources - Embedded, ContainedInManifestFile, 
+  libman.addstudent.resources - Embedded, ContainedInManifestFile, 
+  libman.Adminlogin.resources - Embedded, ContainedInManifestFile, 
+  libman.adminopsel.resources - Embedded, ContainedInManifestFile, 
+  libman.booksearch.resources - Embedded, ContainedInManifestFile, 
+  libman.Displaybook.resources - Embedded, ContainedInManifestFile, 
+  libman.displaylibrarian.resources - Embedded, ContainedInManifestFile, 
+  libman.displaystudent.resources - Embedded, ContainedInManifestFile, 
+  libman.libbookissue.resources - Embedded, ContainedInManifestFile, 
+  libman.librariansearch.resources - Embedded, ContainedInManifestFile, 
+  libman.libsec.resources - Embedded, ContainedInManifestFile, 
+  libman.main.resources - Embedded, ContainedInManifestFile, 
+  libman.modifybook.resources - Embedded, ContainedInManifestFile, 
+  libman.modifylibrarian.resources - Embedded, ContainedInManifestFile, 
+  libman.modifystudent.resources - Embedded, ContainedInManifestFile, 
+  libman.studentsearch.resources - Embedded, ContainedInManifestFile, 
+  libman.student_section.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly libman, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class libman.addbook: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.addlibrarian: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String lid : Public
+    System.String lname : Public
+    System.String lcity : Public
+    System.String r_lid : Public
+    System.String buffer : Public
+Class libman.addstudent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String sid : Public
+    System.String sname : Public
+    System.String sbranch : Public
+    System.String ssem : Public
+    System.String r_sid : Public
+    System.String buffer : Public
+Class libman.Displaybook: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.booksearch: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.modifybook: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String id : Public
+    System.String mbname : Public
+    System.String maname : Public
+    System.String mpname : Public
+    Int32 flag : Public
+    Int32 l : Public
+    Int32 lno : Public
+    msclr.interop.marshal_context context IsByValue : Public, InitOnly
+Class libman.displaylibrarian: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.librariansearch: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String lid : Public
+Class libman.modifylibrarian: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String id : Public
+    System.String mlname : Public
+    System.String mlcity : Public
+    Int32 flag : Public
+    msclr.interop.marshal_context context IsByValue : Public, InitOnly
+Class libman.displaystudent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.modifystudent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String id : Public
+    System.String msname : Public
+    System.String msbranch : Public
+    System.String mssem : Public
+    Int32 flag : Public
+    msclr.interop.marshal_context context IsByValue : Public, InitOnly
+Class libman.studentsearch: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.adminopsel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.adminlogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.libbookissue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.libsec: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.student_section: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class libman.main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
